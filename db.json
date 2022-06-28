@@ -1,0 +1,129 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "empname": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz",
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+          "lat": "-37.3159",
+          "lng": "81.1496"
+        }
+      },
+      "phone": "1-770-736-8031 x56442",
+      "website": "hildegard.org",
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      }
+    },
+    {
+      "empname": "deepti",
+      "username": "deepti",
+      "email": "jawlekar1998@gmail.com",
+      "address": {
+        "street": "wer",
+        "suit": "sdffff",
+        "city": "nanded",
+        "zipcode": "666565",
+        "geo": {
+          "lat": "6565",
+          "lan": "undefined"
+        }
+      },
+      "phone": "9423404015",
+      "website": "sdxdxff",
+      "company": {
+        "name": "wdeawwredx",
+        "catchPhrase": "xfc d",
+        "bs": "xdcv"
+      },
+      "id": 2
+    },
+    {
+      "empname": "skzsaz",
+      "username": "deepti",
+      "email": "jawlekardeepti8@gmail.com",
+      "address": {
+        "street": "wer",
+        "suit": "hhggtf",
+        "city": "nanded",
+        "zipcode": "666565",
+        "geo": {
+          "lat": "525",
+          "lan": "fede"
+        }
+      },
+      "phone": "9423404015",
+      "website": "dsad",
+      "company": {
+        "name": "sdsd",
+        "catchPhrase": "xfc d",
+        "bs": "dsad"
+      },
+      "id": 3
+    },
+    {
+      "empname": "deepti",
+      "username": "deepti",
+      "email": "jawlekar1998@gmail.com",
+      "address": {
+        "street": "wer",
+        "suit": "hhggtf",
+        "city": "nanded",
+        "zipcode": "666565",
+        "geo": {
+          "lat": "6565",
+          "lan": "55262"
+        }
+      },
+      "phone": "9423404015",
+      "website": "sdxdxff",
+      "company": {
+        "name": "wdeawwredx",
+        "catchPhrase": "xfc d",
+        "bs": "xdcv"
+      },
+      "id": 4
+    },
+    {
+      "empname": "deepti",
+      "username": "deepti",
+      "email": "jawlekar1998@gmail.com",
+      "address": {
+        "street": "wer",
+        "suite": "sdffff",
+        "city": "nanded",
+        "zipcode": "666565",
+        "geo": {
+          "lat": "6565",
+          "lng": "55262"
+        }
+      },
+      "phone": "9423404015",
+      "website": "sdxdxff",
+      "company": {
+        "name": "wdeawwredx",
+        "catchPhrase": "xfc d",
+        "bs": "xdcv"
+      },
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

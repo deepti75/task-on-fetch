@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form task</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h2 class="bg-primary p-4 text-white">Comapny Emp</h2>
+    <div class="container">
+        <form action="" id="compInfoForm">
+            <div class="row mt-4">
+           
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" id="empname" placeholder="Name" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" id="username" placeholder="username" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email" class="form-control">
+                    </div>
+                </div>
+            
+            </div>
+            <div class="row mt-4">
+           
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" id="street" placeholder="Street" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" id="suite" placeholder="Suite" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" id="city" placeholder="City" class="form-control">
+                    </div>
+                </div>
+            
+            </div>
+            <div class="row mt-4">
+           
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" id="zipcode" placeholder="Zipcode" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" id="lat" placeholder="lat" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" id="lng" placeholder="lng" class="form-control">
+                    </div>
+                </div>
+            
+            </div>
+            <div class="row mt-4">
+           
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" id="phone" placeholder="Phone" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" id="website" placeholder="Website" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Company-Name" class="form-control">
+                    </div>
+                </div>
+            
+            </div>
+            <div class="row mt-4">
+           
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" id="catchPhrase" placeholder="CatchPhrase" class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" id="bs" placeholder="Company-Bs" class="form-control">
+                    </div>
+                </div>
+               
+            
+            </div>
+            <div class="row text-right"> 
+                <input type="submit" id="submitBtn" value="SUBMIT" class="btn btn-primary">
+                <input type="utton" id="updateBtn" value="UPDATE" class="btn btn-primary d-none">
+            </div>
+    </form>
+    <hr>
+    <div class="row mt-3">
+       
+            <table class="table table-bordered">
+                <thead>
+                    <th>ID</th>
+                    <th>myname</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Geo-location</th>
+                    <th>Phone</th>
+                    <th>Website</th>
+                    <th>Company Detailes</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </thead>
+               <tbody id="compData">
+                   <!-- <tr>
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Username</td>
+                    <td>Email</td>
+                    <td>Address</td>
+                    <td>Geo-location</td>
+                    <td>Phone</td>
+                    <td>Website</td>
+                    <td>Company Detailes</td>
+                    <td> <button class="btn btn-success" data-id="${ele.id}"onclick="onEditHandler(this)">EDIT</button></td>
+                    <td>  <button class="btn btn-danger" data-id="${ele.id}"onclick="onDeleteHandler(this)">DELETE</button></td>
+                </tr> -->
+               </tbody>
+            </table>
+        
+    </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
